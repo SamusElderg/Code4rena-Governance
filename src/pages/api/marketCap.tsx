@@ -1,0 +1,2 @@
+// TODO:
+// circulatingSupply * tokenPrice = marketCap
