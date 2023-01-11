@@ -1,5 +1,5 @@
 import Image from "next/image";
-import arenaLogo from "../../public/arena-logo.png";
+import arenaLogo from "../../img/arena-logo.png";
 
 const navigation = [
   { name: "ARENA Token", href: "#" },
@@ -19,7 +19,7 @@ export default function TopNav() {
               <Image
                 className="h-10 w-auto"
                 src={arenaLogo}
-                alt="Picture of the author"
+                alt="ARENA token logo"
               />
             </a>
             <div className="ml-10 hidden space-x-8 lg:block">

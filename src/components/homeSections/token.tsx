@@ -1,8 +1,8 @@
 import Image from "next/image";
-import arenaLogo from "../../public/arena-logo.png";
-import { totalSupply } from "../const/web3";
+import arenaLogo from "../../img/arena-logo.png";
+// import { totalSupply } from "../const/web3";
 
-export default function ArenaToken() {
+export default function Token() {
   return (
     <div className="w-full bg-gray-900">
       <div className="mx-auto py-12 px-6 sm:max-w-3xl sm:py-16 lg:px-8 lg:py-20">
@@ -11,7 +11,7 @@ export default function ArenaToken() {
             <Image
               className="mr-2 inline-block h-12 w-12"
               src={arenaLogo}
-              alt="Picture of the author"
+              alt="ARENA token logo"
             />
             ARENA Token
           </h2>
@@ -20,8 +20,8 @@ export default function ArenaToken() {
             incentivizing growth through sound DAO governance
           </p>
         </div>
-        <dl className="mt-10 rounded-lg text-center shadow-lg sm:mx-auto sm:grid sm:grid-cols-3 sm:gap-8">
-          <div className="flex flex-col">
+        <dl className="mt-10 flex flex-wrap rounded-lg bg-gradient-to-b from-[#2e026d] to-[#15162c] text-center">
+          <div className="flex flex-auto basis-44 flex-col p-6">
             <dt className="order-2 mt-2 text-lg font-medium leading-6 text-indigo-200">
               Circulating Supply
             </dt>
@@ -31,7 +31,7 @@ export default function ArenaToken() {
               123.4M
             </dd>
           </div>
-          <div className="mt-10 flex flex-col sm:mt-0">
+          <div className="flex flex-auto basis-44 flex-col p-6">
             <dt className="order-2 mt-2 text-lg font-medium leading-6 text-indigo-200">
               Total Supply
             </dt>
@@ -41,7 +41,7 @@ export default function ArenaToken() {
               1.0B
             </dd>
           </div>
-          <div className="mt-10 flex flex-col sm:mt-0">
+          <div className="flex flex-auto basis-44 flex-col p-6">
             <dt className="order-2 mt-2 text-lg font-medium leading-6 text-indigo-200">
               Market Cap
             </dt>

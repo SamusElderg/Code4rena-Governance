@@ -1,8 +1,9 @@
 import { type NextPage } from "next";
 import Head from "next/head";
-import ArenaToken from "../components/arenaToken";
-import Hero from "../components/hero";
-import TopNav from "../components/topNav";
+import Token from "../components/homeSections/token";
+import Hero from "../components/homeSections/hero";
+import Proposals from "../components/homeSections/proposals";
+import TopNav from "../components/layout/topNav";
 
 const Home: NextPage = () => {
   return (
@@ -20,7 +21,8 @@ const Home: NextPage = () => {
         <div className="min-h-screen">
           <Hero />
         </div>
-        <ArenaToken />
+        <Token />
+        <Proposals />
       </main>
     </>
   );
