@@ -4,6 +4,7 @@ import Token from "../components/homeSections/token";
 import Hero from "../components/homeSections/hero";
 import Proposals from "../components/homeSections/proposals";
 import TopNav from "../components/layout/topNav";
+import CTA1 from "../components/homeSections/cta1";
 
 const Home: NextPage = () => {
   return (
@@ -23,6 +24,7 @@ const Home: NextPage = () => {
         </div>
         <Token />
         <Proposals />
+        <CTA1 />
       </main>
     </>
   );

@@ -154,6 +154,7 @@ export default function Proposals() {
                   fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)"
                 />
               </svg>
+              {/* TODO: Consider pulling list of DAO proposals from the tally polygon contracts (almost like a mini interactive dapp even?) */}
               <Image
                 className="relative mx-auto rounded-md"
                 src={votePropImg}
@@ -262,6 +263,7 @@ export default function Proposals() {
                     fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)"
                   />
                 </svg>
+                {/* TODO: Consider pulling list of DAO members/users from the tally polygon contracts (almost like a mini interactive dapp even?) */}
                 <Image
                   className="relative mx-auto rounded-md"
                   src={voteDelegateImg}
