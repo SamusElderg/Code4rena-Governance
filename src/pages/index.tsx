@@ -19,7 +19,7 @@ const Home: NextPage = () => {
       </Head>
       <TopNav />
       <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c]">
-        <div className="min-h-screen">
+        <div className="flex min-h-[calc(100vh-90px)] items-center">
           <Hero />
         </div>
         <Token />

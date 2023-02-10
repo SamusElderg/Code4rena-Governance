@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <div className="relative h-full px-6 lg:px-8">
+    <div className="px-6 lg:px-8">
       <div className="mx-auto max-w-3xl pt-20 pb-32 sm:pt-48 sm:pb-40">
         <div>
           <div>
