@@ -1,8 +1,10 @@
 import { type NextPage } from "next";
 import Head from "next/head";
-import ArenaToken from "../components/arenaToken";
-import Hero from "../components/hero";
-import TopNav from "../components/topNav";
+import Token from "../components/homeSections/token";
+import Hero from "../components/homeSections/hero";
+import Proposals from "../components/homeSections/proposals";
+import TopNav from "../components/layout/topNav";
+import CTA1 from "../components/homeSections/cta1";
 
 const Home: NextPage = () => {
   return (
@@ -17,10 +19,12 @@ const Home: NextPage = () => {
       </Head>
       <TopNav />
       <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c]">
-        <div className="min-h-screen">
+        <div className="flex min-h-[calc(100vh-90px)] items-center">
           <Hero />
         </div>
-        <ArenaToken />
+        <Token />
+        <Proposals />
+        <CTA1 />
       </main>
     </>
   );
