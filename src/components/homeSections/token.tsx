@@ -1,24 +1,30 @@
 import Image from "next/image";
 import arenaLogo from "../../img/arena-logo.png";
+import TokenomicsImage from "../../img/tokenomics.png";
 // import { totalSupply } from "../const/web3";
 
 export default function Token() {
   return (
     <div className="w-full bg-gray-900">
-      <div className="mx-auto py-12 px-6 sm:max-w-3xl sm:py-16 lg:px-8 lg:py-20">
-        <div className="px-8 text-left">
-          <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-            <Image
-              className="mr-2 inline-block h-12 w-12"
-              src={arenaLogo}
-              alt="ARENA token logo"
-            />
-            ARENA Token
-          </h2>
-          <p className="mt-3 text-xl text-indigo-200 sm:mt-4">
-            Distributed to Code4rena ecosystem peers to vote and propose changes
-            incentivizing growth through sound DAO governance
-          </p>
+      <div className="mx-auto max-w-3xl px-6 py-20 sm:py-28 lg:px-8">
+        <div className="flex flex-col justify-between sm:flex-row sm:items-center">
+          <div className="px-2 text-left sm:w-1/2 sm:px-8">
+            <h2 className="text-2xl font-bold tracking-tight text-white sm:text-4xl">
+              <Image
+                className="mr-2 inline-block h-12 w-12"
+                src={arenaLogo}
+                alt="ARENA token logo"
+              />
+              ARENA Token
+            </h2>
+            <p className="mt-3 text-xl text-indigo-200 sm:mt-4">
+              Distributed to Code4rena ecosystem peers to vote and propose
+              changes incentivizing growth through sound DAO governance
+            </p>
+          </div>
+          <div className="sm:w-1/2">
+            <Image className="" src={TokenomicsImage} alt="ARENA token logo" />
+          </div>
         </div>
         <dl className="mt-10 flex flex-wrap rounded-lg bg-gradient-to-b from-[#2e026d] to-[#15162c] text-center">
           <div className="flex flex-auto basis-44 flex-col p-6">
