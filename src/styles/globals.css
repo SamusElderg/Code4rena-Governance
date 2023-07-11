@@ -1,3 +1,72 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  background: #1e1b4b;
+}
+
+header {
+  height: 164px;
+}
+
+@media (min-width: 624px) {
+  header {
+    height: 147px;
+  }
+}
+
+@media (min-width: 1024px) {
+  header {
+    height: 90px;
+  }
+}
+
+main {
+  /* viewport - header - footer (mobile 320px+) */
+  min-height: calc(100vh - 164px - 177px);
+}
+
+@media (min-width: 348px) {
+  main {
+    /* viewport - header - footer (mobile small+) */
+    min-height: calc(100vh - 164px - 157px);
+  }
+}
+
+@media (min-width: 624px) {
+  main {
+    /* viewport - header - footer (mobile small+) */
+    min-height: calc(100vh - 147px - 157px);
+  }
+}
+
+@media (min-width: 768px) {
+  main {
+    /* viewport - header - footer (mobile small+) */
+    min-height: calc(100vh - 147px - 105px);
+  }
+}
+
+@media (min-width: 1024px) {
+  main {
+    /* viewport - header - footer (mobile small+) */
+    min-height: calc(100vh - 90px - 105px);
+  }
+}
+
+#newHero {
+  min-height: calc(100vh - 164px);
+}
+
+@media (min-width: 624px) {
+  #newHero {
+    min-height: calc(100vh - 147px);
+  }
+}
+
+@media (min-width: 1024px) {
+  #newHero {
+    min-height: calc(100vh - 90px);
+  }
+}

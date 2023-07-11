@@ -1,5 +1,5 @@
 import Image from "next/image";
-import arenaLogo from "../../img/arena-logo.png";
+import arenaLogo from "../../img/c4-logo-sqr.png";
 import TokenomicsImage from "../../img/tokenomics.png";
 // import { totalSupply } from "../const/web3";
 

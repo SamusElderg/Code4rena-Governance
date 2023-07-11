@@ -1,20 +1,14 @@
 import { type AppType } from "next/dist/shared/lib/utils";
 
-import { Nunito } from "next/font/google";
-
 import "../styles/globals.css";
-
-const nunito = Nunito({
-  subsets: ["latin"],
-  variable: "--font-nunito",
-  display: "swap",
-});
+import TopNav from "../components/layout/topNav";
 
 const MyApp: AppType = ({ Component, pageProps }) => {
   return (
-    <div className={nunito.variable}>
+    <>
+      <TopNav />
       <Component {...pageProps} />
-    </div>
+    </>
   );
 };
 
