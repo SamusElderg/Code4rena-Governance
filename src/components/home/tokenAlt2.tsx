@@ -11,7 +11,7 @@ const stats = [
 
 // TODO: Add polygonscan link, add CMC link, etc
 // TODO: Add button to 'add token' to wallet
-export default function Token() {
+export default function TokenAlt2() {
   return (
     <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
       <Image
@@ -57,13 +57,16 @@ export default function Token() {
             />
           </div>
         </dl>
-        <dl className="mt-16 grid grid-cols-2 gap-0.5 overflow-hidden rounded-2xl text-center md:grid-cols-4 ">
+        <dl className="mx-auto mt-16 grid max-w-2xl grid-cols-2 gap-x-8 gap-y-10 text-white sm:mt-20 sm:gap-y-16 md:mx-0 md:max-w-none md:grid-cols-4">
           {stats.map((stat) => (
-            <div key={stat.id} className="flex flex-col bg-slate-200/5 p-8">
-              <dt className="overflow-hidden text-ellipsis whitespace-nowrap text-sm font-semibold leading-6 text-gray-300">
+            <div
+              key={stat.id}
+              className="flex flex-col gap-y-3 border-l border-white/10 pl-6"
+            >
+              <dt className="overflow-hidden text-ellipsis whitespace-nowrap text-sm leading-6">
                 {stat.name}
               </dt>
-              <dd className="order-first text-xl font-semibold tracking-tight text-white sm:text-3xl">
+              <dd className="order-first text-xl font-semibold tracking-tight sm:text-3xl">
                 {stat.value}
               </dd>
             </div>

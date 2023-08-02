@@ -37,7 +37,7 @@ export default function TopNav() {
           <div className="ml-10 space-x-4">
             <a
               href="#"
-              className="inline-block rounded-md border border-transparent bg-white py-2 px-4 text-base font-medium text-indigo-600 hover:bg-indigo-50"
+              className="inline-block rounded-md bg-indigo-500 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
             >
               Connect Wallet
             </a>

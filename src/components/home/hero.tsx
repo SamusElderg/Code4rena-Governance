@@ -16,20 +16,20 @@ export default function Hero() {
             src={arenaLogo}
             alt="ARENA token logo"
           />
-          <div className="mt-24 sm:mt-32 lg:mt-16">
+          {/* <div className="mt-24 sm:mt-32 lg:mt-16">
             <a href="#" className="inline-flex space-x-6">
               <span className="rounded-full bg-indigo-500/10 px-3 py-1 text-sm font-semibold leading-6 text-indigo-400 ring-1 ring-inset ring-indigo-500/20">
                 Latest updates
               </span>
-              {/* <span className="inline-flex items-center space-x-2 text-sm font-medium leading-6 text-gray-300">
+              <span className="inline-flex items-center space-x-2 text-sm font-medium leading-6 text-gray-300">
                 <span>Just shipped v1.0</span>
                 <ChevronRightIcon
                   className="h-5 w-5 text-gray-500"
                   aria-hidden="true"
                 />
-              </span> */}
+              </span>
             </a>
-          </div>
+          </div> */}
           <h1 className="mt-10 text-4xl font-bold tracking-tight text-white sm:text-6xl">
             Welcome to the Code
             <span className="text-indigo-600">4rena</span> DAO
@@ -39,13 +39,17 @@ export default function Hero() {
           </p>
           <div className="mt-10 flex items-center gap-x-6">
             <a
-              href="#"
+              href="https://code4rena.com/"
+              target="_blank"
+              rel="noreferrer"
               className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
             >
               C4 Website
             </a>
             <a
-              href="#"
+              href="https://www.tally.xyz/gov/code4rena" // TODO: Once 'Proposals' page is complete, link that here instead (without target="_blank")
+              target="_blank"
+              rel="noreferrer"
               className="text-sm font-semibold leading-6 text-white hover:text-indigo-400"
             >
               DAO Proposals <span aria-hidden="true">→</span>

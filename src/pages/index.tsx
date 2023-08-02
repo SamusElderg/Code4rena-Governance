@@ -1,12 +1,11 @@
 import { type NextPage } from "next";
 import Head from "next/head";
-import Footer from "../components/layout/footer";
 import Hero from "../components/home/hero";
-import LogoCloud from "../components/home/logoCloud";
-import Token from "../components/home/token";
 import Proposals from "../components/home/proposals";
-import TokenAlt from "../components/home/tokenAlt";
+import Contribute from "../components/home/contribute";
 import Cta from "../components/home/cta";
+import Footer from "../components/layout/footer";
+import Token from "../components/home/token";
 
 const Home: NextPage = () => {
   return (
@@ -22,10 +21,11 @@ const Home: NextPage = () => {
       <div className="bg-indigo-950">
         <main>
           <Hero />
-          <LogoCloud />
-          <Token />
+          {/* <LogoCloud /> */}
+          {/* <Token /> */}
           <Proposals />
-          <TokenAlt />
+          <Contribute />
+          <Token />
           <Cta />
         </main>
         <Footer />

@@ -13,44 +13,44 @@ const secondaryFeatures = [
   {
     name: "Create proposals.",
     description:
-      "Create proposals to influence how the DAO operates or to allocate funds from the treasury to build or incentivize improvement of the ecosystem.",
+      "Empower the DAO's operations and foster ecosystem improvement by raising proposals that influence its function and funding.",
     icon: CloudArrowUpIcon,
   },
   {
     name: "Support proposals.",
     description:
-      "Words of roughly this length. Words of roughly this length. Words of roughly this length. Words of roughly this length.",
+      "Stake ARENA token weight to back proposals shaping DAO operations, driving ecosystem growth and incentivizing improvements.",
     icon: LockClosedIcon,
   },
   {
     name: "Oppose proposals.",
     description:
-      "Words of roughly this length. Words of roughly this length. Words of roughly this length. Words of roughly this length.",
+      "Express your dissent by contesting proposals to safeguard the ecosystem from potential drawbacks and promoting responsible growth.",
     icon: ArrowPathIcon,
   },
   {
     name: "Own your weight.",
     description:
-      "Words of roughly this length. Words of roughly this length. Words of roughly this length. Words of roughly this length.",
+      "Exert your individual influence by leveraging your own token weight to directly engage in managing proposals, ensuring active participation.",
     icon: FingerPrintIcon,
   },
   {
     name: "Delegate your weight.",
     description:
-      "Words of roughly this length. Words of roughly this length. Words of roughly this length. Words of roughly this length.",
+      "Share your impact through delegation by entrusting your token weight to another voter, empowering them to make decisions for you.",
     icon: Cog6ToothIcon,
   },
   {
-    name: "One more feature.",
+    name: "Discuss proposals.",
     description:
-      "Words of roughly this length. Words of roughly this length. Words of roughly this length. Words of roughly this length.",
+      "Uncertain about a proposal? Join the community discussion to gather insights, make informed decisions, and shape the ecosystem's growth.",
     icon: ServerIcon,
   },
 ];
 
 export default function Proposals() {
   return (
-    <div className="mt-32 sm:mt-56">
+    <div className="mt-16 sm:mt-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl sm:text-center">
           <h2 className="text-base font-semibold leading-7 text-indigo-400">
